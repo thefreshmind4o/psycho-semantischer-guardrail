@@ -23,6 +23,7 @@ _Noch keine DOI vergeben._
 | Version | DOI | Zenodo | GitHub-Release | Datum |
 |---|---|---|---|---|
 | v0.1.0 | [10.5281/zenodo.21141839](https://doi.org/10.5281/zenodo.21141839) | [Record](https://zenodo.org/records/21141839) | [v0.1.0](https://github.com/thefreshmind4o/modellbibliothek-identitaet/releases/tag/v0.1.0) | 2026-07-02 |
+| v0.2.0 | [10.5281/zenodo.21142779](https://doi.org/10.5281/zenodo.21142779) | [Record](https://zenodo.org/records/21142779) | [v0.2.0](https://github.com/thefreshmind4o/modellbibliothek-identitaet/releases/tag/v0.2.0) | 2026-07-02 |
 
 ## thefreshmind4o.github.io
 _Portal — DOI wird bei Bedarf über eigenen Release vergeben._

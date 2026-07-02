@@ -1,5 +1,7 @@
 # Psycho-Semantischer Guardrail
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21139679.svg)](https://doi.org/10.5281/zenodo.21139679)
+
 Axiomatische Governance-Schicht für KI mit PSS und SM69 — filtert Lüge-Spektren präventiv.
 
 ## Rolle im Forschungsökosystem

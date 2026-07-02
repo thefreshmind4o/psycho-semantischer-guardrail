@@ -2,6 +2,8 @@
 
 ## v0.1.1 — 2026-07-02
 
+DOI: [10.5281/zenodo.21141619](https://doi.org/10.5281/zenodo.21141619).
+
 ### Neu
 - `evaluate_to_pflichtereignis(expr) -> dict` liefert ein Fragment für das `PflichtEreignisObjekt`.
 - Feldpfade folgen der v0.1.0-Konvention aus `modellbibliothek-identitaet`:

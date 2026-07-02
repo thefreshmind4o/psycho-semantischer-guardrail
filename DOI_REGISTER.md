@@ -7,7 +7,7 @@ Zentrale Übersicht aller DOIs des Forschungsökosystems.
 | Version | DOI | Zenodo | GitHub-Release | Datum |
 |---|---|---|---|---|
 | v0.1.0 | [10.5281/zenodo.21139679](https://doi.org/10.5281/zenodo.21139679) | [Record](https://zenodo.org/records/21139679) | [v0.1.0](https://github.com/thefreshmind4o/psycho-semantischer-guardrail/releases/tag/v0.1.0) | 2026-07-02 |
-| v0.1.1 | _ausstehend_ | _kein neuer Zenodo-Upload_ | [v0.1.1](https://github.com/thefreshmind4o/psycho-semantischer-guardrail/releases/tag/v0.1.1) | 2026-07-02 |
+| v0.1.1 | [10.5281/zenodo.21141619](https://doi.org/10.5281/zenodo.21141619) | [Record](https://zenodo.org/records/21141619) | [v0.1.1](https://github.com/thefreshmind4o/psycho-semantischer-guardrail/releases/tag/v0.1.1) | 2026-07-02 |
 
 ## forschungsdaten-und-schemata
 _Noch keine DOI vergeben._

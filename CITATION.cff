@@ -2,13 +2,13 @@ cff-version: 1.2.0
 message: "If you use this repository, please cite it as below."
 title: "Psycho-Semantischer Guardrail"
 abstract: "Axiomatische Governance-Schicht für KI mit PSS und SM69: sprachliche Vorprüfung, Markererkennung, Modalitätslogik und erste Statusableitung im Forschungsökosystem."
-version: "0.1.0"
+version: "0.1.1"
 date-released: "2026-07-02"
 doi: "10.5281/zenodo.21139679"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.21139679"
-    description: "Version-DOI für v0.1.0"
+    description: "Concept-DOI (Zenodo); Version-DOI für v0.1.1 wird bei Bedarf im Zenodo-Record vergeben"
 authors:
   - family-names: "Heiler"
     given-names: "Maximilian"

@@ -4,6 +4,8 @@
 
 Axiomatische Governance-Schicht für KI mit PSS und SM69 — filtert Lüge-Spektren präventiv.
 
+**v0.1.1** — liefert zusätzlich zum Legacy-Bewertungstext ein `PflichtEreignisObjekt`-Fragment (Feldkonvention aus [`modellbibliothek-identitaet`](https://github.com/thefreshmind4o/modellbibliothek-identitaet), Zustands-ID aus [`x-matrix-kern`](https://github.com/thefreshmind4o/x-matrix-kern)).
+
 ## Rolle im Forschungsökosystem
 Dieses Repository ist Teil eines fünfteiligen Ökosystems (siehe [ARCHITEKTURMODELL.md](./ARCHITEKTURMODELL.md)):
 
@@ -19,6 +21,31 @@ Aufgabe: sprachliche Vorprüfung, Markererkennung, Modalitätslogik und erste St
 - **11** — Wahrheit ist kindliche Basis (Unten: Unschuld, ✓)
 - **12** — Zweifel gabelt in Pubertät (Mitte: ⚠, 6↑/9↓)
 - **13** — Systemische Lüge oben (✗, 666/999 blocken)
+
+## API (v0.1.1)
+
+```python
+from guardrail_core import evaluate_to_pflichtereignis
+
+frag = evaluate_to_pflichtereignis("das ist halb so wild")
+# -> {
+#   "analyse":    {"marker": ["V1"]},
+#   "umcodierung":{"operator": "U1"},
+#   "bewertung":  {"waagenzustand": "W0", "stufe": "spannung"},
+#   "guardrail":  {"entscheidung": "warn", "axiom": 12},
+#   "meta":       {"zustand_id": "W0:U1:spannung", "core_version": "0.1.1", ...}
+# }
+```
+
+Die Legacy-Funktion `evaluate_expr_extended(expr) -> str` bleibt für Rückwärtskompatibilität erhalten und ist intern als Wrapper implementiert.
+
+## Tests
+
+```bash
+python3 tests/test_guardrail_core.py
+```
+
+v0.1.1: 8/8 Tests bestehen (ohne externe Abhängigkeiten).
 
 ## Demo
 Streamlit-App zur Live-Prüfung von Prompts:

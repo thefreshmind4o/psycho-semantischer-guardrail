@@ -1,0 +1,16 @@
+{
+  "title": "Psycho-Semantischer Guardrail",
+  "description": "Axiomatische Governance-Schicht für KI mit PSS und SM69: sprachliche Vorprüfung, Markererkennung, Modalitätslogik und erste Statusableitung im Forschungsökosystem.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "apache-2.0",
+  "creators": [
+    {
+      "name": "Heiler, Maximilian",
+      "affiliation": "Independent Researcher, Hamburg",
+      "orcid": "0009-0003-2785-1710"
+    }
+  ],
+  "keywords": ["guardrail","psycho-semantik","ki-governance","constitutional-ai","forschungssoftware"],
+  "version": "0.1.0"
+}

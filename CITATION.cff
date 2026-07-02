@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Psycho-Semantischer Guardrail"
+abstract: "Axiomatische Governance-Schicht für KI mit PSS und SM69: sprachliche Vorprüfung, Markererkennung, Modalitätslogik und erste Statusableitung im Forschungsökosystem."
+version: "0.1.0"
+date-released: "2026-07-02"
+authors:
+  - family-names: "Heiler"
+    given-names: "Maximilian"
+    orcid: "https://orcid.org/0009-0003-2785-1710"
+    affiliation: "Independent Researcher, Hamburg"
+license: "Apache-2.0"
+repository-code: "https://github.com/thefreshmind4o/psycho-semantischer-guardrail"
+keywords:
+  - "guardrail"
+  - "psycho-semantik"
+  - "ki-governance"
+  - "constitutional-ai"
+  - "forschungssoftware"
